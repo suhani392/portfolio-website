@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Security Internship | Suhani Badhe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-logo">
+      <img src="assets/Logo.png" alt="Logo" style="height: 38px; vertical-align: middle;" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="mycertificates.html">My Certificates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Header Section -->
+  <section class="internship-header-section">
+    <div class="internship-header-bgicon">
+      <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="60" cy="60" r="54" fill="#6d4aff22" />
+        <path d="M60 40a14 14 0 0 1 14 14v8h-28v-8a14 14 0 0 1 14-14zm-18 22v18a4 4 0 0 0 4 4h28a4 4 0 0 0 4-4V62H42z" fill="#a084e8" fill-opacity="0.18"/>
+        <rect x="46" y="70" width="28" height="18" rx="4" fill="#a084e8" fill-opacity="0.12"/>
+      </svg>
+    </div>
+    <h1 class="internship-title neon-glow">Cyber Security Internship</h1>
+    <p class="internship-sub glow-text">“Completed a certified cyber security internship by MasterCard in collaboration with DevTown. Gained hands-on experience in simulating and analyzing phishing attacks.”</p>
+  </section>
+
+  <!-- Task 1 Section -->
+  <section class="internship-task-section">
+    <h2 class="internship-task-title neon-glow">📧 Task 1: Phishing Email Simulation</h2>
+    <div class="internship-task-glass glassmorphism">
+      <p>Simulated a phishing email to test employee awareness and response to social engineering attacks.</p>
+      <pre class="internship-code-preview">
+From: ITSecurity@mastercard.com
+To: employee@email.com
+Subject: Action Required! Internal Policy Update and Security Verification
+👉 Update Your Password Here
+      </pre>
+      <div class="internship-note-glow">Goal: Test employee awareness by mimicking a real-world corporate phishing attack.</div>
+    </div>
+  </section>
+
+  <!-- Task 2 Section -->
+  <section class="internship-task-section">
+    <h2 class="internship-task-title neon-glow">📊 Task 2: Analyzing Phishing Simulation Results</h2>
+    <div class="internship-task-glass glassmorphism">
+      <ul class="internship-bullets">
+        <li>Spotting phishing traits: fake links, urgent tone, generic greetings</li>
+        <li>Documenting risks and suggesting protective actions</li>
+        <li>Reporting mechanisms and security practices</li>
+      </ul>
+      <blockquote class="internship-quote-glow">“Phishing is the #1 cause of data breaches — awareness is our first line of defense.”</blockquote>
+    </div>
+  </section>
+
+  <!-- Certificate Section -->
+  <section class="internship-cert-section">
+    <h2 class="internship-task-title neon-glow">🎓 Internship Certificate</h2>
+    <div class="internship-cert-card glassmorphism" style="background-image:url('certificates/MasterCard Internship Completion Certificate-1.png')">
+      <div class="internship-cert-glass">
+        <div class="internship-cert-desc">Certified Cyber Security Internship Completion from MasterCard via DevTown.</div>
+        <button class="cert-view-btn" data-img="certificates/MasterCard Internship Completion Certificate-1.png">View</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Note -->
+  <footer class="internship-footer-note">
+    <div class="footer-logo">
+      <img src="assets/Logo.png" alt="Footer Logo" style="height: 48px;" />
+    </div>
+    <div class="internship-footer-quote glow-text">Cyber security is not just a skill — it's a responsibility. This internship taught me to think like an attacker to build better defenses.</div>
+  </footer>
+  <div id="cert-modal" class="cert-modal">
+    <span class="cert-modal-close">&times;</span>
+    <img class="cert-modal-img" src="" alt="Certificate Preview" />
+  </div>
+  <script src="certificates.js"></script>
+</body>
+</html>

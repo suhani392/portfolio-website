@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analysis Internship – AICTE x VOIS | Suhani Badhe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-logo">
+      <img src="assets/Logo.png" alt="Logo" style="height: 38px; vertical-align: middle;" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="mycertificates.html">My Certificates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Header Section -->
+  <section class="vois-header-section">
+    <div class="vois-header-bgicon">
+      <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="60" cy="60" rx="54" ry="40" fill="#6d4aff22" />
+        <rect x="40" y="40" width="40" height="40" rx="12" fill="#a084e8" fill-opacity="0.13"/>
+        <polyline points="50,80 60,50 70,80" stroke="#a084e8" stroke-width="3" fill="none" opacity="0.5"/>
+        <circle cx="60" cy="60" r="6" fill="#6d4aff" opacity="0.5"/>
+      </svg>
+    </div>
+    <h1 class="vois-title neon-glow">Data Analysis Internship – AICTE x VOIS</h1>
+    <p class="vois-sub glow-text">“Completed a certified internship under AICTE and VOIS, exploring real-world data analysis using Power BI, Excel, and Python. Worked on live datasets to derive meaningful insights and create interactive dashboards.”</p>
+  </section>
+
+  <!-- Project 1 Section -->
+  <section class="vois-project-section">
+    <h2 class="vois-project-title neon-glow">📦 Project 1 – Retail Sentiment Analysis</h2>
+    <div class="vois-project-glass glassmorphism">
+      <ul class="vois-bullets">
+        <li>Created a sentiment analysis model for hotel reviews using Python & NLP</li>
+        <li>Used tools: Google Colab, Python, Jupyter Notebook, Google Data Studio</li>
+        <li>Identified customer satisfaction trends and visualized feedback</li>
+        <li><b>End users:</b> Retail teams, HR, Marketing, Finance, Supply Chain</li>
+      </ul>
+      <a href="https://colab.research.google.com/drive/11dLxEOT_dm7_Yb8Zk4b9MtKZ8G3VkkmG?usp=sharing" target="_blank" class="vois-demo-btn neon-glow">Open Project Demo</a>
+    </div>
+  </section>
+
+  <!-- Project 2 Section -->
+  <section class="vois-project-section">
+    <h2 class="vois-project-title neon-glow">🌍 Project 2 – Global Terrorism Data Analysis</h2>
+    <div class="vois-project-glass glassmorphism">
+      <ul class="vois-bullets">
+        <li>Analyzed global terrorism incidents using Power BI & Excel</li>
+        <li>Built interactive dashboards highlighting trends and threats</li>
+        <li>Explored attack types, regions, and impacted demographics</li>
+        <li><b>End users:</b> Policy-makers, security analysts, researchers, NGOs</li>
+      </ul>
+      <a href="https://drive.google.com/file/d/19XIZjKr2B4uZsrSHijZGgJX5h5QihuzC/view?usp=drive_link" target="_blank" class="vois-demo-btn neon-glow">View Dashboard</a>
+    </div>
+  </section>
+
+  <!-- Certificate Section -->
+  <section class="vois-cert-section">
+    <h2 class="vois-project-title neon-glow">🎓 Certificate of Completion</h2>
+    <div class="vois-cert-card glassmorphism" style="background-image:url('certificates/AICTE Internship Completion Certificate-1.png')">
+      <div class="vois-cert-glass">
+        <div class="vois-cert-desc">Certified Internship Completion in Data Analysis by AICTE x VOIS.</div>
+        <button class="cert-view-btn" data-img="certificates/AICTE Internship Completion Certificate-1.png">View</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="vois-footer-note">
+    <div class="footer-logo">
+      <img src="assets/Logo.png" alt="Footer Logo" style="height: 48px;" />
+    </div>
+    <div class="internship-footer-quote glow-text">Data is more than numbers — it's a story waiting to be told. This internship taught me how to transform raw information into meaningful insights that drive real decisions.</div>
+  </footer>
+  <div id="cert-modal" class="cert-modal">
+    <span class="cert-modal-close">&times;</span>
+    <img class="cert-modal-img" src="" alt="Certificate Preview" />
+  </div>
+  <script src="certificates.js"></script>
+</body>
+</html>

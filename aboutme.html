@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Suhani Badhe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-logo">
+      <img src="assets/Logo.png" alt="Logo" style="height: 38px; vertical-align: middle;" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="mycertificates.html">My Certificates</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="aboutme-main">
+    <div class="aboutme-vertical-container">
+      <div class="aboutme-gradient-bg"></div>
+      <!-- Top Section: Intro -->
+      <section class="aboutme-intro-section">
+        <p class="aboutme-intro-text">
+          Hi, I'm Suhani Badhe, a second year Computer Engineering student, with a passion for coding, design, and creativity.<br><br>
+          I love solving problems using tech, and I'm always curious to learn more and build new things.<br><br>
+          Whether it's writing clean code or painting a canvas, I find joy in creating things that make an impact.
+        </p>
+      </section>
+
+      <!-- Middle Section: Bitmoji & Contact Box -->
+      <section class="aboutme-container">
+        <div class="aboutme-left">
+          <img src="assets/MyBitmojiFull.png" alt="My Bitmoji" class="aboutme-bitmoji" />
+        </div>
+        <div class="aboutme-right">
+          <div class="contact-box">
+            <h2>Contact Details</h2>
+            <ul>
+              <li><strong>Name :</strong> Suhani Badhe</li>
+              <li><strong>Email :</strong> <a href="mailto:suhanibadhe@gmail.com">suhanibadhe@gmail.com</a></li>
+              <li><strong>Phone :</strong> +91-8767969148</li>
+              <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/suhani-badhe/" target="_blank">linkedin.com/in/suhani-badhe</a></li>
+              <li><strong>GitHub :</strong> <a href="https://github.com/suhani392" target="_blank">github.com/suhani392</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Section: Flip Cards -->
+      <section class="aboutme-flipcards-section">
+        <h2 class="flipcards-heading">Little Stories About Me</h2>
+        <div class="flipcards-grid">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">🎨 Creativity Offline</div>
+              <div class="flip-card-back">I love drawing and painting it's my form of calm and focus.</div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">🎹 My Music Side</div>
+              <div class="flip-card-back">I've been playing the piano and guitar for years. It inspires my coding rhythm too.</div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">🧩 My Puzzle Obsession</div>
+              <div class="flip-card-back">I can solve a Rubik's Cube in under a minute. It's how I trained my logic early on.</div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">🏆 My First Achievement</div>
+              <div class="flip-card-back">I won a silver medal in a State Level Poster Presentation. It made me believe in my ideas.</div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">⚽ Surprise! I Played Football!</div>
+              <div class="flip-card-back">Yup, I was part of a girls' football league and we came second!</div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">🌱 My Dream</div>
+              <div class="flip-card-back">I want to create tech that makes everyday life easier and more beautiful.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script>
+    // Minimal JS for flip cards
+    document.querySelectorAll('.flip-card').forEach(card => {
+      card.addEventListener('click', function() {
+        this.classList.toggle('flipped');
+      });
+    });
+  </script>
+  <footer>
+    <div class="footer-logo">
+      <img src="assets/Logo.png" alt="Footer Logo" style="height: 48px;" />
+    </div>
+  </footer>
+</body>
+</html>
